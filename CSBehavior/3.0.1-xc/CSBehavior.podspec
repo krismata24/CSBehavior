@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.description               = "Framework that collect public device information and send to Clearsale to improve services for anti fraud detection"
   spec.homepage                  = "https://br.clear.sale/"
   spec.author                    = "Clearsale"
-  spec.license                   = { :type => 'Commercial', :file => "CSBehavior.xcframework/*/CSBehavior.framework/csbehavior-license.md" }
+  spec.license                   = { :type => 'Commercial', :file => "CSBehavior.xcframework/ios-arm64/CSBehavior.framework/csbehavior-license.md" }
   spec.platform                  = :ios
   spec.source                    = { :http => "https://device.clearsale.com.br/ios/sdk-behavior-v3.0.1-xc-release.zip" }
   spec.source_files              = 'CSBehavior.xcframework/*/CSBehavior.framework/Headers/*.h'

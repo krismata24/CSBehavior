@@ -20,5 +20,5 @@ Pod::Spec.new do |spec|
   spec.source_files              = 'CSBehavior.framework/Headers/*.h'
   spec.public_header_files       = 'CSBehavior.framework/Headers/*.h'
   spec.ios.deployment_target     = "8.0"
-  spec.ios.vendored_frameworks   = 'CSBehavior.framework'
+  spec.ios.vendored_frameworks   = 'CSBehavior.xcframework'
 end

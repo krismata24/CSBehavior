@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name                      = "CSBehavior"
-  spec.version                   = "3.0.1-xc"
+  spec.version                   = "3.0.2-xc"
   spec.summary                   = "Mobile behavior SDK (CSBehavior) from Clearsale."
   spec.description               = "Framework that collect public device information and send to Clearsale to improve services for anti fraud detection"
   spec.homepage                  = "https://br.clear.sale/"

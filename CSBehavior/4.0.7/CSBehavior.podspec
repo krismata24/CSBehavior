@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.author                    = "Clearsale"
   spec.license                   = { :type => 'Commercial', :file => "CSBehavior.framework/csbehavior-license.md" }
   spec.platform                  = :ios
-  spec.source                    = { :http => "https://ststdbehaviorprd.blob.core.windows.net/sdk-ios/CSBehavior.framework-4.0.7.zip" }
+  spec.source                    = { :http => "https://ststdbehaviorprd.blob.core.windows.net/sdk-ios/CSBehavior.xcframework-#{spec.version}.zip" }
   spec.source_files              = 'CSBehavior.framework/Headers/*.h'
   spec.public_header_files       = 'CSBehavior.framework/Headers/*.h'
   spec.ios.deployment_target     = "9.0"
